@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';*/
 import './App.css';
 import WebDevelopment from './imagenes/WebDevelopment.jpg';
-import Tarea from './Componentes/Tarea';
+
+import ListaDeTareas from './Componentes/ListaDeTareas';
 
 function App() {
   return (
@@ -13,11 +14,9 @@ function App() {
       </div>
     <div className='tareas-lista-principal'>
       <h1>Mis tareas</h1>
-      <Tarea texto='aprender react' />
+      <ListaDeTareas />
     </div>
   </div>   
-
-
   );
 }
 
