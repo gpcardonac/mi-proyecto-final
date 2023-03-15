@@ -10,7 +10,7 @@ function TareaFormulario(props) {
     setInput(e.target.value);
    /* console.log('Escribiendo...');*/
 
-  }  
+  };  
 
   const manejarEnvio = e => {
     e.preventDefault();
@@ -20,10 +20,10 @@ function TareaFormulario(props) {
       id:uuid4(),
       texto: input,
       completada: false
-    }
+    };
 
     props.onSubmit(tareaNueva);
-  }
+  };
 
     return (
         <form 
